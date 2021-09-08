@@ -1,6 +1,8 @@
 body {
-    background-color:	rgb(247, 247, 247);
+    
     font-family:'Kaisei HarunoUmi', serif;
+    background-image: url('Road Motivational Poster.png');
+    color: white;
 }
 
 img {
