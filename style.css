@@ -1,0 +1,43 @@
+body {
+    background-color:	rgb(247, 247, 247);
+    font-family:'Kaisei HarunoUmi', serif;
+}
+
+img {
+    width: 5rem;
+    height: 5rem;
+    float: left;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 0.75rem;
+}
+
+#resistanceTables {
+    display: inline;
+}
+#title {
+    padding-top: 100px;
+    padding-left: 20px;
+ 
+}
+
+.intro {
+    margin-top: 0.75rem;
+    margin-left: 2rem;
+
+}
+p {
+    margin-left: 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    display: flex;
+}
+
+#spiel {
+    margin-left: 0.5rem;
+}
