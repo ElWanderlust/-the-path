@@ -1,3 +1,7 @@
-const n = Math.random();
+function playAudio() {
+    const audio = document.getElementById(element);
+    audio.play();
+}
 
-console.log("There is a " + str(n * 100) + "% chance she loves you.");
+
+
