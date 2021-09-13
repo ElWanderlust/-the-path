@@ -274,6 +274,99 @@ $('#1XJudgement').click(function() {
     vid.playbackRate = 1.0;
 })
 
+//Worry
+
+$('#getWorry').click(function() {
+    $('#Worry').trigger('play');
+    $('#Worry').css('display', 'flex');
+})
+
+$('#pauseWorry').click(function() {
+    $('#Worry').trigger('pause');
+})
+$('#restartWorry').click(function() {
+    let vid = document.getElementById("Worry");
+    vid.currentTime = 0;
+    $('#Worry').css('display', 'none');
+})
+
+$('#2XWorry').click(function() {
+    let vid = document.getElementById("Worry");
+    vid.playbackRate = 2.0;
+})
+
+$('#1.5XWorry').click(function() {
+    let vid = document.getElementById("Worry");
+    vid.playbackRate = 1.5;
+})
+
+$('#1XWorry').click(function() {
+    let vid = document.getElementById("Worry");
+    vid.playbackRate = 1.0;
+})
+
+//Confidence
+
+$('#getConfidence').click(function() {
+    $('#Confidence').trigger('play');
+    $('#Confidence').css('display', 'flex');
+})
+
+$('#pauseConfidence').click(function() {
+    $('#Confidence').trigger('pause');
+})
+$('#restartConfidence').click(function() {
+    let vid = document.getElementById("Confidence");
+    vid.currentTime = 0;
+    $('#Confidence').css('display', 'none');
+})
+
+$('#2XConfidence').click(function() {
+    let vid = document.getElementById("Confidence");
+    vid.playbackRate = 2.0;
+})
+
+$('#1.5XConfidence').click(function() {
+    let vid = document.getElementById("Confidence");
+    vid.playbackRate = 1.5;
+})
+
+$('#1XConfidence').click(function() {
+    let vid = document.getElementById("Confidence");
+    vid.playbackRate = 1.0;
+})
+
+//Achievement
+
+$('#getAchievement').click(function() {
+    $('#Achievement').trigger('play');
+    $('#Achievement').css('display', 'flex');
+})
+
+$('#pauseAchievement').click(function() {
+    $('#Achievement').trigger('pause');
+})
+$('#restartAchievement').click(function() {
+    let vid = document.getElementById("Achievement");
+    vid.currentTime = 0;
+    $('#Achievement').css('display', 'none');
+})
+
+$('#2XAchievement').click(function() {
+    let vid = document.getElementById("Achievement");
+    vid.playbackRate = 2.0;
+})
+
+$('#1.5XAchievement').click(function() {
+    let vid = document.getElementById("Achievement");
+    vid.playbackRate = 1.5;
+})
+
+$('#1XAchievement').click(function() {
+    let vid = document.getElementById("Achievement");
+    vid.playbackRate = 1.0;
+})
+
 //Observations scribed or engraved 
 
 $('#scribe').click(function() {
