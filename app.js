@@ -367,6 +367,69 @@ $('#1XAchievement').click(function() {
     vid.playbackRate = 1.0;
 })
 
+//Fame
+
+$('#getFame').click(function() {
+    $('#Fame').trigger('play');
+    $('#Fame').css('display', 'flex');
+})
+
+$('#pauseFame').click(function() {
+    $('#Fame').trigger('pause');
+})
+$('#restartFame').click(function() {
+    let vid = document.getElementById("Fame");
+    vid.currentTime = 0;
+    $('#Fame').css('display', 'none');
+})
+
+$('#2XFame').click(function() {
+    let vid = document.getElementById("Fame");
+    vid.playbackRate = 2.0;
+})
+
+$('#1.5XFame').click(function() {
+    let vid = document.getElementById("Fame");
+    vid.playbackRate = 1.5;
+})
+
+$('#1XFame').click(function() {
+    let vid = document.getElementById("Fame");
+    vid.playbackRate = 1.0;
+})
+
+//Camus
+
+$('#getCamus').click(function() {
+    $('#Camus').trigger('play');
+    $('#Camus').css('display', 'flex');
+})
+
+$('#pauseCamus').click(function() {
+    $('#Camus').trigger('pause');
+})
+$('#restartCamus').click(function() {
+    let vid = document.getElementById("Camus");
+    vid.currentTime = 0;
+    $('#Camus').css('display', 'none');
+})
+
+$('#2XCamus').click(function() {
+    let vid = document.getElementById("Camus");
+    vid.playbackRate = 2.0;
+})
+
+$('#1.5XCamus').click(function() {
+    let vid = document.getElementById("Camus");
+    vid.playbackRate = 1.5;
+})
+
+$('#1XCamus').click(function() {
+    let vid = document.getElementById("Camus");
+    vid.playbackRate = 1.0;
+})
+
+
 //Observations scribed or engraved 
 
 $('#scribe').click(function() {
